@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "dae717ff-5102-448e-b26a-5eec251d1a2d",
+    "colId": "history",
+    "containerId": "",
+    "name": "Register user",
+    "url": "localhost:3000/users",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-07T13:14:53.397Z",
+    "modified": "2023-02-15T18:49:33.087Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Krafcsik Gergo\",\n  \"email\": \"gergo@krafcsik.com\",\n  \"phone\": \"123\",\n  \"password\": \"vmi123\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b1d2e6e1-8a29-4c10-9cfc-39916af76e32",
+    "colId": "history",
+    "containerId": "",
+    "name": "Login user",
+    "url": "localhost:3000/users/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-07T13:43:24.755Z",
+    "modified": "2023-02-12T20:33:08.275Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"gergo@krafcsik.com\",\n  \"password\": \"vmi123\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "acc25d97-e1ad-4a64-b40c-690c06a809de",
+    "colId": "history",
+    "containerId": "",
+    "name": "Get user by id",
+    "url": "localhost:3000/users/1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-08T14:22:28.915Z",
+    "modified": "2023-02-10T11:23:29.801Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "18f17311-e506-4a0a-9aff-5e22b03851c9",
+    "colId": "history",
+    "containerId": "",
+    "name": "Update user by id",
+    "url": "localhost:3000/users/51",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2023-02-08T14:50:52.630Z",
+    "modified": "2023-02-10T12:40:04.212Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"lajcsi2\"\n  \n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "8c96d445-4e8d-4615-ae5f-bddf63f4b659",
+    "colId": "history",
+    "containerId": "",
+    "name": "Access secure endpoint",
+    "url": "localhost:3000/users/secure-endpoint",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-10T12:44:16.729Z",
+    "modified": "2023-02-15T21:03:29.575Z",
+    "headers": [
+      {
+        "name": "User-Agent",
+        "value": ""
+      }
+    ],
+    "params": [],
+    "tests": []
+  }
+]
